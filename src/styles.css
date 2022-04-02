@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+th,
+td {
+  color: white !important;
+}
+th {
+  color: white !important;
+  font-size: 1.2em !important;
+}
+.btnRefresh {
+  padding: 1em !important;
+}
