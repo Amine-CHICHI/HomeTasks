@@ -76,7 +76,16 @@ export default function App() {
       </Typography>
       <Grid container spacing={2} style={{ justifyContent: "space-around" }}>
         {Taches.map((tache) => (
-          <Grid item xs={3} sx={{ minHeight: "150px" }}>
+          <Grid
+            item
+            md={3}
+            xs={12}
+            sx={{
+              minHeight: "150px",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
             <Card
               sx={{
                 maxWidth: 345,
